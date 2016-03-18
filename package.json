@@ -1,0 +1,28 @@
+{
+  "name": "realtimeAPI",
+  "version": "0.1.0",
+  "description": "A web socket API server",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danleavitt0/realtimeAPI.git"
+  },
+  "author": "danleavitt0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danleavitt0/realtimeAPI/issues"
+  },
+  "homepage": "https://github.com/danleavitt0/realtimeAPI",
+  "dependencies": {
+    "@f/extend": "^1.0.0",
+    "@f/is-object": "^1.1.4",
+    "wolfy87-eventemitter": "^4.3.0",
+    "ws": "^1.0.1"
+  }
+}
