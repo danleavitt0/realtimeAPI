@@ -31,11 +31,11 @@ var server = RTMServer(API, 3000)
 
 MIT
 
-[travis-image]: https://img.shields.io/travis/danleavitt0/rtm-server.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/danleavitt0/rtm-server.svg
 [travis-url]: https://travis-ci.org/danleavitt0/rtm-server
-[git-image]: https://img.shields.io/github/tag/danleavitt0/rtm-server.svg?style=flat-square
+[git-image]: https://img.shields.io/github/tag/danleavitt0/rtm-server.svg
 [git-url]: https://github.com/danleavitt0/rtm-server
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/rtm-server
+[npm-image]: https://img.shields.io/npm/v/rtm-server.svg
 [npm-url]: https://npmjs.org/package/rtm-server
