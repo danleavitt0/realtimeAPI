@@ -4,7 +4,8 @@
   "description": "A web socket API server",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "repository": {
     "type": "git",
