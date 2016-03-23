@@ -45,3 +45,8 @@ test('realtime server negative response', function (t) {
     ws.close()
   })
 })
+
+test('open for testing', function () {
+  ws = new WebSocket('ws://localhost:3000')
+  server = require('../lib/index')(API, 3000)
+})
