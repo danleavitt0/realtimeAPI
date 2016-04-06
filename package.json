@@ -24,8 +24,6 @@
   },
   "homepage": "https://github.com/danleavitt0/realtimeAPI",
   "dependencies": {
-    "@f/extend": "^1.0.0",
-    "@f/is-object": "^1.1.4",
     "ws": "^1.0.1",
     "component-emitter": "^1.2.0"
   },
