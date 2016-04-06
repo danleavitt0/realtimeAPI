@@ -1,5 +1,5 @@
 var test = require('tape')
-var API = require('./testAPI')
+var API = require('./utils/testAPI')
 var WebSocket = require('ws')
 var server = require('../lib/index')(API, 3000)
 var ws = new WebSocket('ws://localhost:3000')

@@ -4,7 +4,14 @@
   "description": "A web socket API server",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "npm run validate && tape 'test/**/*.js'",
+    "preversion": "npm run validate",
+    "postversion": "git push && git push --tags && npm publish --access=public",
+    "validate": "standard",
+    "clean": "rm -rf lib",
+    "init:travis": "travis enable",
+    "init": "npm install && npm run init:git && npm run init:travis",
+    "dev": "beefy src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +30,7 @@
     "component-emitter": "^1.2.0"
   },
   "devDependencies": {
+    "standard": "^6.0.8",
     "tape": "^4.5.1"
   }
 }
